@@ -1,0 +1,19 @@
+.team {
+    background-color: $secondaryBackgroundColor;
+
+    &__title {
+            margin-bottom: 50px;
+        }
+}
+
+
+.team-list {
+    display: flex;
+    /* на випадок додавання членів команди
+  flex-wrap: wrap; */
+}
+
+.team-member:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
